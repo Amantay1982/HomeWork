@@ -1,0 +1,42 @@
+
+.parent {
+
+    width: 100%;
+    height: 100px;
+    background-color: yellow;
+    dispay:flex;
+
+}
+
+
+
+.a {
+    
+    width: 10%;
+    height: 100px;
+    background-color: gray;
+
+
+}
+
+.b{
+    width: 10%;
+    height: 100px;
+    background-color: brown;
+
+
+}
+
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
