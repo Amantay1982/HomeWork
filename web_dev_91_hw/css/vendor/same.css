@@ -1,0 +1,10 @@
+.container {
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+.hover-color:hover {
+
+	color: blue;
+
+}
