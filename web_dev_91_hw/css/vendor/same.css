@@ -3,8 +3,14 @@
 	padding-right: 70px;
 }
 
-.hover-color:hover {
+
+
+.color-change:hover {
 
 	color: blue;
 
+}
+
+.bg-color {
+	background-color: rgba(0,0,0,0);
 }

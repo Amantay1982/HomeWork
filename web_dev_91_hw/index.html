@@ -1,46 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>HomeWork</title>
 	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
 <header class="contacts container">
-	<div class="contacts left">
+	<div class="contacts left bg-color">
 		<a href="#">
-		<i class="material-icons">email</i>
-		mail@example.com 
+		  <i class="fas fa-envelope">
+		  	
+		  </i>
+		  <p>
+		  	mail@example.com
+		  </p>
 		</a>
 
 		<a href="#">
-		<i class="material-icons">phone_in_talk</i>	
-		+1-888-777-1234 
+		  <i class="fas fa-phone-alt">
+		  	
+		  </i>
+		  <p>
+		  +1-888-777-1234
+		  </p>
 	    </a> 
 
 	</div>
 
-	<div class="contacts right">
+	<div class="contacts right bg-color">
 		<a href="#">
-			<i class="material-icons"> facebook </i>
+			<i class="fab fa-facebook-f"></i>
 		</a>
 
 		<a href="#">
-			<i class="material-icons"> facebook</i>
+			<i class="fab fa-instagram"></i>
 		</a>
 
 		<a href="#">
-			<i class="material-icons"> facebook </i>
+			<i class="fab fa-linkedin-in"></i>
 		</a>
 
 		<a href="#">
-			<i class="material-icons"> facebook </i>
+			<i class="fab fa-twitter"></i>
 		</a>
 
 		<a href="#">
-			<i class="material-icons"> ring_volume </i> 
-			Call back
+			<img src="images/widgets/ring_volume.png" width="20px">
+			<p>Callback</p>
 		</a>
 
 	</div>
@@ -54,23 +66,41 @@
 	</div>
 	<div class="fixed fixed-middle">
 		<a href="#" class="a1">home</a>
-		<a href="#" class="a2 hover-color ">about us</a>
-		<a href="#" class="a3 hover-color">services</a>
-		<a href="#" class="a4 hover-color">pages</a>
-		<a href="#" class="a5 hover-color">blog</a>
-		<a href="#" class="a6 hover-color">gallary</a>
-		<a href="#" class="a7 hover-color">contact us</a>
+		<a href="#" class="a2 color-change">About us</a>
+		<a href="#" class="a3 color-change">Services</a>
+		<a href="#" class="a4 color-change">Pages</a>
+		<a href="#" class="a5 color-change">Blog</a>
+		<a href="#" class="a6 color-change">Gallary</a>
+		<a href="#" class="a7 color-change">Contact us</a>
 	</div>
 	<div class="fixed fixed-right">
 		<i class="material-icons">search</i>
 	</div>
 	
 </header>
-<section class="point">
-	<span class="dot"></span>
-	<span class="dot"></span>
-	<span class="dot"></span>
+<section class="point container">
+	
+	<div class="solutions">
+		<h3>IT Solutions for your Business</h3>
+		<P>On this template you will be able to create a site for your business. The template has many diffenet blocks from which you can create your own unique site</P>
+		
+		<button class="first-btn" onclick="window.location.href='#';">
+		About us &#8594;
+	    </button>
+
+		<button class="sec-btn bg-color" onclick="window.location.href='#';">
+		Contact Us &#8594;
+	    </button>
+	</div>
+
+	<div class="dot">
+			<div class="dot-a"></div>
+			<div class="dot-a"></div>
+			<div class="dot-a"></div>
+	</div>
+
 </section>
 
 </body>
 </html>
+
